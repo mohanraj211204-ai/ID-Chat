@@ -896,7 +896,7 @@ async function setupFCM() {
     console.error("FCM ERROR:", err);
   }
 }
-setupFCM();
+//setupFCM();
 if ('serviceWorker' in navigator) {
 
   navigator.serviceWorker.register('./firebase-messaging-sw.js')
